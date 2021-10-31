@@ -12,6 +12,8 @@ p{
     margin: 0 auto;
 }
 .cabecera{
-    color: sienna;
-    background: blue;
+    border-radius: 24px 27px 158px 158px;
+    -moz-border-radius: 24px 27px 158px 158px;
+    -webkit-border-radius: 24px 27px 158px 158px;
+    border: 7px solid #3c355e;
 }
