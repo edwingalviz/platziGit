@@ -1,0 +1,28 @@
+git init crear
+git add adicionar al stainig
+git commit -m"" subirlo al repositorio
+git log consultar los comit que se an echo con su codigo base
+git reset (codigo del comit ) luego hard o soft (hard para borrar todo en satinig y en el repositorio y recuperar la version que se le esta pasando y soft para borrar solo la version del repositorio)
+git diff comparar los cambio adicionando el codigo de cada commit
+git checkout seguido del codigo de commit es para revisar y observar como era ese proyecto cuando se subio ojo canbia el archivo a como era cuando se subio si usted le hace un add y un commit remplaza el archivo actual del repositorio lo mejor seria solo revisarlo y luego volver con git checkout master y archivo del master y ya vuelve al actual
+git rm --cached y nombre de archivo lo elimina y tambien del staging pero actualiza el archivo que estava en el repositorio al actual sin un add y sin commit osea de traking a un untraking
+git reset HEAD elimina el ultimo archivo adicionado en staging
+git clone y codigo del repositroio l clona a la carpeta donde estoy generando este codigo
+git push para enviar al servidor remoto(github)
+git fetch tomo los cambios del repositorio en la nube y los pone en mi repositorio local final del master pero no modifica mi archivo local 
+git merge toma el final del repositorio local y trasforma mi archivo local
+git pull hace lo mismo que el fetch y merge lo sube al repsitorio final del merge y actualiza el archivo del local
+git commit -am "mensage" es para adicionar y commit al mismo tiempo solo se puede con archivos que antes fueron adicionados y comisiados :)
+
+git status para ver lo que hay en la carpeta archivos que hay en el staging y faltantes para commit 
+git show para revisar como esta el archivo 
+
+git branch (nombre de la rama) luego ya se crea ojo tiene que estar en el master 
+git checkout (nombre de la rama) es para pasarse a la cabezera
+git merge seguido de la rama hija fusiona la rama hija con la madre de igyal manera s epuede hacer alrevez pero es mejor hacer los cambios primero al master
+git remote add origin (la url del codigo de repositorio en linea)
+git push origin master (subir la rama master al repositorio en linea )
+
+(gir pull origin master --allow-unreal-histories) esta liena pasa cuando un repositorio en linea lo mejor es crear el de git hub sin el redme tiene un master totalmente distinto al master que vamos a subir por ende para fusionar este a mi local nececito esa linea
+
+
