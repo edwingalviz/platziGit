@@ -12,3 +12,9 @@ p{
 #post{
     margin: 0 auto;
 }
+.cabecera{
+    border-radius: 24px 27px 158px 158px;
+    -moz-border-radius: 24px 27px 158px 158px;
+    -webkit-border-radius: 24px 27px 158px 158px;
+    border: 7px solid #3c355e;
+}
