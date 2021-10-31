@@ -2,3 +2,12 @@ p{
     color: green;
     font-size: 25;
 }
+#cabezera{
+   width: 70%; 
+   text-align: center;
+   background: red;
+   margin: 0 auto;
+}
+#post{
+    margin: 0 auto;
+}
