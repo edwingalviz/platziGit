@@ -11,3 +11,7 @@ p{
 #post{
     margin: 0 auto;
 }
+.cabecera{
+    color: sienna;
+    background: blue;
+}
